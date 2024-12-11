@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('https://i.pinimg.com/736x/75/9e/9a/759e9a3ededba7106abeee4561149394.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+main .about-section {
+    color: white; /* Set text color to white */
+    background-color: #0A3A50; /* Optional: Set a background color for contrast */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+.about-section {
+    color: white; /* Set text color to white */
+    background-color: #0A3A50; /* Optional: Set a background color for contrast */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+#vision-mission {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px; /* Padding around the section */
+    margin: 20px 0; /* Margin above and below the section */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Centered text */
+}
+
+#vision-mission h2 {
+    color: #0A3A50; /* Dark color for headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+#vision-mission p {
+    color: #333; /* Dark color for text */
+    font-size: 16px; /* Font size for text */
+}
+
+main #services h2 {
+    color: white; /* Set text color to white for the services heading */
+}
+
+#services h2 {
+    color: white; /* Set text color to white for the services heading */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    margin: 10px; /* Margin around the card */
+    width: 200px; /* Set a fixed width for the card */
+    height: 300px; /* Set a fixed height for the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    text-align: center; /* Center text and images */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    color: #666;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Ensure consistent font */
+    background-color: #0A3A50; /* Match your website background color */
+}
+
+footer {
+    background-color: #032B3F; /* Footer background color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo img {
+    width: 50px; /* Logo size */
+    height: 50px;
+}
+
+.footer-logo h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    text-align: right;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.whatsapp-button {
+    background-color: #25D366; /* WhatsApp button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1DAF54; /* WhatsApp button hover color */
+}
+
+.captcha {
+    margin-top: 20px;
+}
