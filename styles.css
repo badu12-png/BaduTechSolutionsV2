@@ -275,6 +275,7 @@ footer {
     background-color: #032B3F; /* Background color for contrast */
     border-radius: 10px; /* Rounded corners */
     color: white; /* Text color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .form-group {
@@ -295,6 +296,11 @@ textarea {
     border-radius: 5px; /* Rounded corners for inputs */
     background-color: #fff; /* Background color for inputs */
     color: #000; /* Text color for inputs */
+    font-size: 16px; /* Increase font size for better readability */
+}
+
+textarea {
+    height: 100px; /* Set a height for the textarea */
 }
 
 button {
@@ -304,6 +310,8 @@ button {
     border: none; /* Remove default border */
     border-radius: 5px; /* Rounded corners for the button */
     cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Increase font size for better readability */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 button:hover {
