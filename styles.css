@@ -6,6 +6,12 @@ body {
     padding: 0;
 }
 
+@media (max-width: 768px) {
+    #testimonials {
+        flex-direction: column; /* Stack testimonials vertically on mobile */
+    }
+}
+
 header {
     background: url('https://i.pinimg.com/736x/75/9e/9a/759e9a3ededba7106abeee4561149394.jpg') no-repeat center center;
     background-size: cover;
@@ -250,4 +256,14 @@ footer {
     width: 60px; /* Set width of the image */
     height: 60px; /* Set height of the image */
     margin-right: 15px; /* Space between image and text */
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row; /* Change to column for mobile */
+    align-items: center;
+}
+
+.testimonial {
+    width: 80%; /* Use percentage instead of fixed pixels */
 }
