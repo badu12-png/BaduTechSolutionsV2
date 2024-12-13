@@ -50,6 +50,12 @@ main #services h2 {
     color: white; /* Set text color to white for the services heading */
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -111,6 +117,35 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+#blog h2, #blog p, /* Latest Articles section titles and paragraphs */
+#portfolio h2, #portfolio p, /* Portfolio titles and paragraphs */
+#contact h2, #contact p, /* Contact section titles and paragraphs */
+#testimonials h2, #testimonials p, /* Testimonials section titles and paragraphs */
+#portfolio h2, /* Portfolio title */
+#blog h2 { /* Article title */
+    color: white !important; /* Set text color to white */
+}
+
+/* Ensure all relevant titles and paragraphs are white */
+#blog h2, #blog h3, #blog p, /* Latest Articles section titles and paragraphs */
+#portfolio h2, #portfolio h3, #portfolio p, /* Portfolio titles and paragraphs */
+#contact h2, #contact p, /* Contact section titles and paragraphs */
+#testimonials h2, #testimonials p, /* Testimonials section titles and paragraphs */
+#contact input, /* Input fields in contact section */
+#contact textarea { /* Textarea in contact section */
+    color: white !important; /* Set text color to white */
+}
+
+#contact input, /* Input fields in contact section */
+#contact textarea { /* Textarea in contact section */
+    color: black !important; /* Set text color to black */
+    background-color: white; /* Optional: Set a white background for contrast */
+}
+
+#contact label { /* Target labels in the contact section */
+    color: white !important; /* Set text color to white */
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif; /* Ensure consistent font */
@@ -125,6 +160,11 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.footer-contact, .footer-links {
+    margin: 10px 0; /* Space between sections */
+    text-align: center; /* Center text */
 }
 
 .footer-logo {
@@ -185,4 +225,29 @@ footer {
 
 .captcha {
     margin-top: 20px;
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column; /* Stack testimonials vertically */
+    align-items: center; /* Center testimonials */
+    margin: 20px; /* Add margin */
+}
+
+.testimonial {
+    background-color: #032B3F; /* Dark background for contrast */
+    color: white; /* Text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the rectangle */
+    margin: 10px 0; /* Space between testimonials */
+    width: 80%; /* Width of the testimonial box */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.testimonial-image {
+    border-radius: 50%; /* Make the image circular */
+    width: 60px; /* Set width of the image */
+    height: 60px; /* Set height of the image */
+    margin-right: 15px; /* Space between image and text */
 }
