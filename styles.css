@@ -267,3 +267,45 @@ footer {
 .testimonial {
     width: 80%; /* Use percentage instead of fixed pixels */
 }
+
+#contact {
+    max-width: 600px; /* Set a maximum width for the contact form */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    background-color: #032B3F; /* Background color for contrast */
+    border-radius: 10px; /* Rounded corners */
+    color: white; /* Text color */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside the input fields */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    background-color: #fff; /* Background color for inputs */
+    color: #000; /* Text color for inputs */
+}
+
+button {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
